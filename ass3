@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Food, LLC</title>
+
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+	<body>
+
+		<header>
+			<nav id="header-nav" class="navbar navbar-default">
+				<div class="container">
+					<div class="navbar-header">
+					<div class="navbar-brand">
+						<a href="index.html">
+							<h1>Food,LLC</h1>
+						</a>
+					</div>
+
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>       		
+							<span class="icon-bar"></span>
+					</button>
+					</div>
+
+					<div id="collapsable-nav" class="collapse navbar-collapse ">
+					<ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+						<li>
+						<a href="#">Chicken</a>
+						</li>
+						<li>
+						<a href="#">Beef</a>
+						</li>
+						<li>
+						<a href="#">Sushi</a>
+						</li>
+						
+					</ul>
+				</div>
+
+				</div>
+			</nav>
+		</header>
+
+	<div id="main-content" class="container">
+		<h1 id="menu-categories-title" class="text-center">Our Menu</h1>
+	</div>
+
+	<div class="col-md-4 col-sm-6 col-xs-12">
+		<div id="chicken-tile">
+			<section>
+				<h3 class="text-center">Chicken</h3>
+				<p>
+					Aliqua cupidatat reprehenderit occaecat anim labore esse exercitation amet. Exercitation ut deserunt nulla id exercitation est cillum est ipsum consequat commodo. Id consectetur est commodo ullamco. Velit proident culpa enim cupidatat adipisicing magna nisi laborum reprehenderit. Reprehenderit qui ad dolore mollit cupidatat incididunt nostrud exercitation eiusmod quis.
+				</p>
+				<p>
+					<a href="#top-heading">Back to Top</a>
+				</p>
+			</section>
+		</div>
+	</div>
+	<div class="col-md-4 col-sm-6 col-xs-12">
+		<div id="beef-tile">
+			<section>
+				<h3 class="text-center">Beef</h3>
+				<p>
+					Do laborum veniam ex voluptate nulla incididunt nisi qui consectetur amet aute elit anim pariatur. Officia cillum voluptate quis fugiat adipisicing. Qui cillum anim incididunt id est enim quis ea et id aute nulla labore non. Laboris nostrud dolor occaecat tempor nisi amet proident ad aliqua ut id cillum velit culpa. Qui magna consequat laborum duis aliqua id velit laboris.
+				</p>
+				<p>
+					<a href="#top-heading">Back to Top</a>
+				</p>
+			</section>
+		</div>
+	</div>
+	<div class="col-md-4 col-sm-12 col-xs-12">
+		<div id="sushi-tile">
+			<section>
+				<h3 class="text-center">Sushi</h3>
+				<p>
+					Sint laborum reprehenderit minim quis irure mollit. Amet laborum ullamco non sit pariatur deserunt. Laboris ipsum do aliquip veniam. Dolore proident consectetur anim aliquip voluptate incididunt ad. Proident ea ea et quis in aliqua officia incididunt est minim.
+				</p>
+				<p>
+					<a href="#top-heading">Back to Top</a>
+				</p>
+			</section>
+		</div>
+	</div>
+
+	<!--jQuery -->
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+	</body>
+</html>
